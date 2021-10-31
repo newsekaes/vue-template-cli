@@ -1,0 +1,31 @@
+{
+  "name": "vue-template-cli",
+  "version": "1.0.0",
+  "description": "vue模板命令行工具",
+  "main": "./bin/index.js",
+  "bin": {
+    "my-cli": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newsekaes/vue-template-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newsekaes/vue-template-cli/issues"
+  },
+  "homepage": "https://github.com/newsekaes/vue-template-cli#readme",
+  "devDependencies": {
+    "commander": "^8.2.0"
+  }
+}
