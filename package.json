@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/newsekaes/vue-template-cli#readme",
   "devDependencies": {
-    "commander": "^8.2.0"
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0"
   }
 }
