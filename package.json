@@ -4,7 +4,7 @@
   "description": "vue模板命令行工具",
   "main": "./bin/index.js",
   "bin": {
-    "my-cli": "./bin/index.js"
+    "my-cli": "./bin/my-cli.js"
   },
   "directories": {
     "lib": "lib"
