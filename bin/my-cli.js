@@ -10,5 +10,7 @@ program
     .command('create <app-name>')
     .description('create a new project powered by my-cli-service')
     .action((name, options) => {
-        require('./lib/create')(name, options);
+        require('../lib/create')(name, [{ name: 'test' }]);
     });
+
+program.parse();
